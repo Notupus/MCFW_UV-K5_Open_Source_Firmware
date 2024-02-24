@@ -10,16 +10,16 @@ ENABLE_AIRCOPY 							:= 0
 # 3856 bytes
 ENABLE_FMRADIO							:= 1
 # 84 bytes
-ENABLE_FLASHLIGHT_SOS       			:= 1
+ENABLE_FLASHLIGHT_SOS       			:= 0
 ENABLE_UART                 			:= 1
-ENABLE_UART_CAT             			:= 0
+ENABLE_UART_CAT             			:= 1
 # Bause we can cut more... - 4108 bytes
 ENABLE_DTMF_CALLING         			:= 0
 # 1750Hz & 1050Hz FN1 FN2 Tones
-ENABLE_DTMF_SIDETONES				    := 1
+ENABLE_DTMF_SIDETONES				    := 0
 ENABLE_TX1750 							:= 0
 # Keep this in stock options, and add option in mods for extra rogers
-ENABLE_ROGERBEEP            			:= 1
+ENABLE_ROGERBEEP            			:= 0
 ENABLE_MDC                  			:= 0
 
 #============== MODIFICATIONS =============#
@@ -52,7 +52,7 @@ ENABLE_FASTER_CHANNEL_SCAN  				:= 1
 # Enable Timeout beep at the end of timeout - 44 bytes
 ENABLE_TIMEOUT_ROGERBEEP_NOTIFICATION		:= 1
 # CW Modulation
-ENABLE_CW                   				:= 0
+ENABLE_CW                   				:= 1
 
 #=============== EXTRA: MESSENGER ===============# 
 ENABLE_MESSENGER            				:= 1
@@ -64,7 +64,7 @@ ENABLE_MESSENGER_SHOW_RX_TX_FREQ			:= 1
 # 156 bytes
 ENABLE_MESSENGER_UART						:= 1
 # 3408 bytes
-ENABLE_MESSENGER_ENCRYPTION             	:= 1
+ENABLE_MESSENGER_ENCRYPTION             	:= 0
 # 140 bytes
 ENABLE_MESSENGER_ROGERBEEP_NOTIFICATION 	:= 1
 
@@ -85,7 +85,7 @@ ENABLE_DOCK 	                  			:= 0
 
 #Thanks to KD8CEC for sharing his code / We have to check the code better, i just code & paste it to the right places...
 # 1476 bytes
-ENABLE_LIVESEEK_MHZ_KEYPAD					:= 0
+ENABLE_LIVESEEK_MHZ_KEYPAD					:= 1
 
 
 # ---- DEBUGGING ----

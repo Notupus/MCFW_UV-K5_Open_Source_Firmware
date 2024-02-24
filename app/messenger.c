@@ -196,7 +196,7 @@ void MSG_FSKSendData()
 	//
 	// turn off CTCSS/CDCSS during FFSK
 	const uint16_t css_val = BK4819_ReadRegister(BK4819_REG_51);
-	BK4819_WriteRegister(BK4819_REG_51, 0);
+	//BK4819_WriteRegister(BK4819_REG_51, 0);
 
 	// set the FM deviation level
 	const uint16_t dev_val = BK4819_ReadRegister(BK4819_REG_40);
